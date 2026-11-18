@@ -49,7 +49,7 @@ To bind an app that isn't open, use **Add App…**. To change numbers later, cli
 - **Windows** come from the Accessibility API. The public window list skips other Spaces, so Switch also looks windows up by element ID, which finds fullscreen ones.
 - **Settings** are a list of bundle IDs and numbers stored in `UserDefaults`.
 
-The code is about 600 lines of Swift in `Sources/Switch`. `Switcher.swift` has the press, cycle and release logic.
+The code is about 550 lines of Swift in `Sources/Switch`. `Switcher.swift` has the press, cycle and release logic.
 
 ## Build from source
 
