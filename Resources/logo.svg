@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE14D"/>
+      <stop offset="1" stop-color="#FF8A3D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect x="100" y="100" width="824" height="824" rx="186" fill="url(#bg)"/>
+
+  <!-- shadow under the toggle -->
+  <rect x="212" y="400" width="600" height="280" rx="140" fill="#E0621F"/>
+
+  <!-- toggle track -->
+  <rect x="212" y="372" width="600" height="280" rx="140" fill="#2EE6A6" stroke="#1B1B3A" stroke-width="28"/>
+
+  <!-- speed lines -->
+  <g stroke="#FFFFFF" stroke-width="26" stroke-linecap="round">
+    <line x1="318" y1="472" x2="430" y2="472"/>
+    <line x1="290" y1="552" x2="402" y2="552"/>
+  </g>
+
+  <!-- knob with a face -->
+  <circle cx="672" cy="512" r="112" fill="#FFFFFF" stroke="#1B1B3A" stroke-width="28"/>
+  <circle cx="634" cy="494" r="15" fill="#1B1B3A"/>
+  <circle cx="710" cy="494" r="15" fill="#1B1B3A"/>
+  <circle cx="610" cy="536" r="15" fill="#FF8FA3"/>
+  <circle cx="734" cy="536" r="15" fill="#FF8FA3"/>
+  <path d="M640 538 Q672 572 704 538" fill="none" stroke="#1B1B3A" stroke-width="15" stroke-linecap="round"/>
+</svg>
